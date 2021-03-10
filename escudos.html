@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h2 style="color: crimson;">escolha seu time</h2>
+
+<select id="times">
+    <option value="https://i.pinimg.com/originals/e8/1e/0b/e81e0bcf99242191d4dd7a89758615da.jpg">Corinthians</option>
+    <option value="https://i.pinimg.com/originals/d9/1f/2c/d91f2ce9129b38879b8de903bc6db15d.jpg">São Paulo</option>
+    <option value="https://i.pinimg.com/originals/fb/94/4a/fb944a7090471ddee8af7be70ce49f44.png">Palmeiras</option>
+    <option value="https://i.pinimg.com/originals/0b/8f/79/0b8f791f4ce9dec8e455ad107a9156ec.png">santos</option>
+
+
+
+
+</select>
+
+<button onclick="buscar()">Mostrar</button>
+
+<div id="exibir" ></div>
+
+</body>
+</html>
+
+
+
+<script>
+
+
+        function buscar(){
+
+
+        exibir.innerHTML = `<img style = "height: 300px; width: 400px"src =${times.value}>`
+
+        }
+
+
+
+
+</script>
